@@ -1,4 +1,5 @@
-*{
+body {
+    width: 100%;
     color: #18122E;
     font-family: 'Work Sans', sans-serif;
 }
@@ -31,6 +32,7 @@
 
 .half-width {
     width: 50%;
+    padding: 15px;
     line-height: 29px;
 }
 
@@ -63,6 +65,7 @@
     width: 85%;
     margin-left: 90px;
     padding: 3%;
+    margin: 0 auto;
 }
 
 .mission-vission img {
@@ -96,6 +99,8 @@
 .limitless-sky {
     padding-top: 3%;
     margin-left: 150px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .limitless-sky h1 {
@@ -105,7 +110,7 @@
 #shape {
     width: 25%;
     position: absolute;
-    right: 950px;
+    right: 1500px;
     z-index: 9;
 }
 
@@ -130,4 +135,27 @@
     position: absolute;
     left: 800px;
     z-index: 9;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #18122E;
+    color: white;
+    width: 100%;
+}
+
+.welcome {
+    width: 60%;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 3%;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.welcome img {
+    width: 30%;
 }
